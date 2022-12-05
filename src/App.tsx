@@ -8,7 +8,8 @@ import {Body} from "./site/Body";
 function App() {
     return (
         <div className="App">
-            <Header/>
+            <Header title="FirstHeader"/>
+            <Header title="SecondHeader"/>
             <Body/>
             <Footer/>
         </div>
