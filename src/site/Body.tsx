@@ -1,10 +1,10 @@
 import React from 'react';
 
-export Body = () => {
+export const Body = () => {
     return (
         <div>
-
-            </div>
+            Body
+        </div>
     );
 };
 
