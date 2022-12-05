@@ -13,7 +13,7 @@ type StudentDataType = {
 export const Students = (props: StudentsPropsType) => {
     return (
         <ul>
-            {props.students.map((el, index) => <li key={index}>{el.name} <span>{el.age}</span></li>)}
+            {props.students.map((el, index) => <li key={index}><span>{el.name}</span> <span>{el.age}</span></li>)}
         </ul>
     );
 };

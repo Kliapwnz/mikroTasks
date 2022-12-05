@@ -5,6 +5,7 @@ import {Header} from "./site/Header";
 import {Footer} from "./site/Footer";
 import {Body} from "./site/Body";
 import {Students} from "./site/Students";
+import {Cars} from "./site/Cars";
 
 const students = [
     {id: 1, name: "James", age: 8},
@@ -20,6 +21,12 @@ const students = [
     {id: 11, name: "Christopher", age: 100},
 ]
 
+const topCars = [
+    {manufacturer:"BMW",model:'m5cs'},
+    {manufacturer:"Mercedes",model:'e63s'},
+    {manufacturer:"Audi",model:'rs6'}
+]
+
 function App() {
     return (
         <div className="App">
@@ -27,6 +34,7 @@ function App() {
             <Body titleForBody={"New Body"}/>
             <Footer titleForFooter={"New Footer"}/>
             <Students students={students}/>
+            <Cars topCars={topCars}/>
         </div>
     );
 }
